@@ -1,0 +1,11 @@
+from tkinter.filedialog import askopenfilenames
+def browse_directory():
+    while True:
+        print('Selecione os arquivos no seu gerenciador!')
+        print('Abrindo gerenciador de arquivos')
+        files = askopenfilenames()
+        if files==None:
+            print('\033[1;31mNenhum arquivo foi selecionado\033[m')
+            continue
+        break
+    return files
