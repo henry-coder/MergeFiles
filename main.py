@@ -58,3 +58,4 @@ if __name__ == '__main__':
       show_options()  
     elif(quantity==1):
         print(f'Você selecionou apenas \033[0;35m{quantity}\033[m arquivo!')
+input('Pressione ENTER para finalizar...')
